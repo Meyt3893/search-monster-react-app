@@ -30,6 +30,7 @@ render() {
   monster.name.toLowerCase().includes(serachFiels.toLowerCase()));
   return(
     <div className='App'>
+      <h2>Monsters Roladex</h2>
       <SearchBox placeholder = 'search monster' handleChange={this.hendleChange}/>
       <CardList monsters = {filteredMonstered} >
       </CardList>
